@@ -1,0 +1,22 @@
+{
+  "filter_name": "kistsortering",
+  "mc_version": "1_17_R1",
+  "book_content": {
+    "author": "sketaful",
+    "title": "Kistsortering",
+    "pages": [
+      {
+        "text": "\n\n\n     Kistsortering\n\n\n\nKonsten att sortera upp sina prylar i olika kistor.\n\n"
+      },
+      {
+        "text": "Skickande kista\n-------------------\nDet första som måste skapas är en kista som skickar saker.\n\nDetta görs genom att välja en placerad kista och klicka på den med \"sender\"-lien.\n\nDenna kommer nu skicka allt som läggs i den till andra kistor."
+      },
+      {
+        "text": "Mottagande kistor\n-------------------\nDessa kistor skapas genom att klickas på med \"receiver\"-lien.\n\nDu kan ha hur många av dessa som helst. \n\nFör att välja vad som ska hamna i kistorna sätter du en ram på dem och placerar det du vill ha i dem i ramen"
+      },
+      {
+        "text": "Varje mottagande kista kommer automatiskt få saken som du valt att lägga i ramen skickad till sig från den skickande kistan.\n\nSå allt du behöver göra nu är att slänga ur allt i skickande kistan och stänga den så letar den upp de kistor som finns."
+      }
+    ]
+  }
+}
