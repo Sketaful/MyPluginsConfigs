@@ -1,0 +1,33 @@
+panels:
+  main_menu:
+    perm: default
+    rows: 6
+    title: '&8Main Menu'
+    commands-on-open:
+    - open= main_menu_2 {Bottom}
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '25':
+        material: BOOK
+        name: Misc
+        commands:
+        - open= misc-main
+        stack: 4
+      '21':
+        material: BOOK
+        name: Claims
+        commands:
+        - open= griefdefender-main
+        stack: 2
+      '19':
+        material: BOOK
+        stack: 1
+        name: McMMO
+        commands:
+        - open= mcmmo-main
+      '23':
+        material: BOOK
+        name: Protections
+        commands:
+        - open= lwc-main
+        stack: 3

@@ -1,0 +1,37 @@
+panels:
+  misc-kistsort-sub:
+    perm: default
+    rows: 3
+    title: '&8Items-To-Chests Sorting'
+    commands-on-open:
+    - open= main_menu_2 {Bottom}
+    empty: AIR
+    item:
+      '10':
+        material: CHEST
+        stack: 1
+        name: '&6Skickande kista'
+        lore:
+        - '&3Choose chest that will transfer items.'
+        commands:
+        - ics add sender
+        - cpc
+      '13':
+        material: BOOK
+        stack: 1
+        name: '&2Guide: Items-To-Chest'
+        lore:
+        - '&5Click book for a guide to'
+        - '&5Item-To-Chest sorting.'
+        commands:
+        - msg= "Sorry. This one's not ready yet."
+        - cpc
+      '16':
+        material: BOOKSHELF
+        stack: 1
+        name: '&6Recieving Chests!'
+        lore:
+        - '&3Choose chests that will recieve items.'
+        commands:
+        - ics add receiver
+        - cpc

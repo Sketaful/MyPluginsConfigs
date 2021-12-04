@@ -1,0 +1,274 @@
+panels:
+  mcmmo-main:
+    perm: default
+    rows: 6
+    title: '&9McMMO (&1Power: &2%mcmmo_power_level%&9)'
+    commands-on-open:
+    - open= main_menu_2 {Bottom}
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '5':
+        material: BOOK
+        stack: 1
+        name: Misc
+      '7':
+        material: BOOK
+        stack: 1
+        name: Extra
+      '12':
+        material: IRON_SHOVEL
+        stack: 1
+        name: '&aExcavation'
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.excavation
+          material: BARRIER
+          name: Excavation
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_excavation%'
+        commands:
+        - open= mcmmo-sub-excavation {Middle}
+      '14':
+        material: POTION
+        stack: 1
+        name: Alchemy
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.alchemy
+          material: BARRIER
+          name: Alchemy
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_alchemy%'
+        commands:
+        - open= mcmmo-sub-alchemy {Middle}
+      '16':
+        material: GOLDEN_HELMET
+        stack: 1
+        name: Recycling
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.salvage
+          material: BARRIER
+          name: Recycling
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_salvage%'
+        commands:
+        - open= mcmmo-sub-salvage {Middle}
+      '21':
+        material: FISHING_ROD
+        stack: 1
+        name: '&aFishing'
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.fishing
+          material: BARRIER
+          name: Fishing
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_fishing%'
+        commands:
+        - open= mcmmo-sub-fishing {Middle}
+      '23':
+        material: IRON_INGOT
+        stack: 1
+        name: Repair
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.repair
+          material: BARRIER
+          name: Repair
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_repair%'
+        commands:
+        - open= mcmmo-sub-repair {Middle}
+      '28':
+        material: DIAMOND_AXE
+        stack: 1
+        name: '&cAxes'
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.axes
+          material: BARRIER
+          name: Axes
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_axes%'
+        - '&6XP until next level: &2%mcmmo_xp_acrobatics%&6/&2%mcmmo_xp_needed_axes%'
+        commands:
+        - open= mcmmo-sub-axes {Middle}
+      '30':
+        material: IRON_HOE
+        stack: 1
+        name: '&aHerbalism'
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.herbalism
+          material: BARRIER
+          name: Herbalism
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_herbalism%'
+        commands:
+        - open= mcmmo-sub-herbalism {Middle}
+      '32':
+        material: BONE
+        stack: 1
+        name: Taming
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.taming
+          material: BARRIER
+          name: Taming
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_taming%'
+        commands:
+        - open= mcmmo-sub-taming {Middle}
+      '37':
+        material: DIAMOND_SWORD
+        stack: 1
+        name: '&cSwords'
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.swords
+          material: BARRIER
+          name: Swords
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_swords%'
+        - '&6XP until next level: &2%mcmmo_xp_acrobatics%&6/&2%mcmmo_xp_needed_swords%'
+        commands:
+        - open= mcmmo-sub-swords {Middle}
+      '39':
+        material: IRON_PICKAXE
+        stack: 1
+        name: '&aMining'
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.mining
+          material: BARRIER
+          name: Mining
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_mining%'
+        commands:
+        - open= mcmmo-sub-mining {Middle}
+      '43':
+        material: BOOK
+        stack: 1
+        name: Party
+      '46':
+        material: POTATO
+        stack: 1
+        name: '&cUnarmed'
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.unarmed
+          material: BARRIER
+          name: Unarmed
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_unarmed%'
+        - '&6XP until next level: &2%mcmmo_xp_acrobatics%&6/&2%mcmmo_xp_needed_unarmed%'
+        commands:
+        - open= mcmmo-sub-unarmed {Middle}
+      '48':
+        material: IRON_AXE
+        stack: 1
+        name: '&aWoodcutting'
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.woodcutting
+          material: BARRIER
+          name: Woodcutting
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_woodcutting%'
+        commands:
+        - open= mcmmo-sub-woodcutting {Middle}
+      '52':
+        material: cps= self
+        stack: 1
+        name: Party
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.party
+          material: BARRIER
+          name: Party
+          lore:
+          - Locked
+        commands:
+        - open= mcmmo-sub-party {Middle}
+      '1':
+        material: BOOK
+        stack: 1
+        name: '&cCombat'
+      '3':
+        material: BOOK
+        name: '&aGathering'
+        stack: 1
+      '19':
+        material: BOW
+        name: '&cArchery'
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.archery
+          material: BARRIER
+          name: Archery
+          lore:
+          - Locked
+        stack: 1
+        lore:
+        - '&6Your Level: &2%mcmmo_level_archery%'
+        - '&6XP until next level: &2%mcmmo_xp_acrobatics%&6/&2%mcmmo_xp_needed_archery%'
+        commands:
+        - open= mcmmo-sub-archery {Middle} [mcmmo:archery]
+      '10':
+        material: LEATHER_BOOTS
+        stack: 1
+        name: '&cAcrobatics'
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.acrobatics
+          material: BARRIER
+          name: Acrobatics
+          lore:
+          - Locked
+          value1:
+          - mcmmo:acrobat
+        lore:
+        - '&6Your Level: &2%mcmmo_level_acrobatics%'
+        - '&6XP until next level: &2%mcmmo_xp_acrobatics%&6/&2%mcmmo_xp_needed_acrobatics%'
+        commands:
+        - open= mcmmo-sub-acrobatic {Middle} [mcmmo:acrobat]
+      '25':
+        material: COAL
+        stack: 1
+        name: Smelting
+        has0:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: mcmmo.ability.smelting
+          material: BARRIER
+          name: Smelting
+          lore:
+          - Locked
+        lore:
+        - '&6Your Level: &2%mcmmo_level_smelting%'
+        commands:
+        - open= mcmmo-sub-smelting {Middle}

@@ -1,0 +1,11 @@
+panels:
+  mcmmo-sub-mining:
+    perm: default
+    rows: 3
+    title: '&8Mining Abilities'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '12':
+        material: POLISHED_GRANITE
+        stack: 1
+        name: ''

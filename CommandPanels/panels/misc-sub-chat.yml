@@ -1,0 +1,36 @@
+panels:
+  misc-sub-chat:
+    perm: default
+    rows: 3
+    title: Chat Channels
+    empty: AIR
+    item:
+      '10':
+        material: LIME_TERRACOTTA
+        stack: 1
+        name: Global
+        commands:
+        - venturechat:channel g
+        lore:
+        - The Global Chat used
+        - for normal chat.
+      '13':
+        material: LIGHT_BLUE_TERRACOTTA
+        name: Help
+        commands:
+        - venturechat:channel ?
+        lore:
+        - Use this channel when
+        - asking other players
+        - for help.
+        stack: 2
+      '16':
+        material: BLUE_TERRACOTTA
+        stack: 3
+        name: Trade
+        commands:
+        - venturechat:channel h
+        lore:
+        - Use this channel if you want
+        - to trade something with other
+        - players on the server.

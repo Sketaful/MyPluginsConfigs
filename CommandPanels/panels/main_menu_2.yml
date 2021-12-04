@@ -1,0 +1,52 @@
+panels:
+  main_menu_2:
+    perm: default
+    rows: 1
+    title: '&8Generated panel-1'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '32':
+        material: POLISHED_GRANITE
+        stack: 2
+        name: ''
+      '11':
+        material: POLISHED_GRANITE
+        name: ''
+      '13':
+        material: POLISHED_GRANITE
+        name: ''
+      '14':
+        material: POLISHED_GRANITE
+        name: ''
+      '0':
+        material: DIAMOND
+        stack: 1
+        name: Main Menu
+        commands:
+        - open= main_menu {TOP}
+      '2':
+        material: BOOK
+        stack: 1
+        name: Skydd
+      '3':
+        material: BOOK
+        stack: 1
+        name: Store
+      '5':
+        material: BOOK
+        stack: 1
+        name: Misc
+      '6':
+        material: BOOK
+        stack: 1
+        name: Books
+      '8':
+        material: BARRIER
+        stack: 1
+        name: Close
+        commands:
+        - cpc
+      '4':
+        material: BOOK
+        stack: 1
+        name: Chest Sorting

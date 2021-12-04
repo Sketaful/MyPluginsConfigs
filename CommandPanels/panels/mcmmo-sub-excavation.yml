@@ -1,0 +1,11 @@
+panels:
+  mcmmo-sub-excavation:
+    perm: default
+    rows: 3
+    title: '&8Excavation  Abilities'
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '11':
+        material: POLISHED_GRANITE
+        stack: 1
+        name: ''

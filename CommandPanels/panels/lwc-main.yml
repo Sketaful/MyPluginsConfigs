@@ -1,0 +1,13 @@
+panels:
+  lwc-main:
+    perm: default
+    rows: 6
+    title: '&8Chests & Doors Protection'
+    commands-on-open:
+    - open= main_menu_2 {Bottom}
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '31':
+        material: GRASS_BLOCK
+        stack: 1
+        name: ''
