@@ -496,8 +496,7 @@ Breaks:
       Reward:
         Command:
           Execute:
-            - give PLAYER dispenser 10
-            - give PLAYER lever 5
+            - give PLAYER lever 1
 
 # Count entities killed. You can use any of the following:
 # - entity types (available names: https://github.com/PyvesB/advanced-achievements/wiki/Entity-names).
