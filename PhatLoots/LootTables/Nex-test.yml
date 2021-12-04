@@ -1,0 +1,59 @@
+Nex-test:
+  ==: PhatLoot
+  AutoLoot: false
+  BreakAndRespawn: false
+  Global: false
+  LootConditions:
+  - ==: BiomeCondition
+    Biome: PLAINS
+    Enabled: false
+    Name: BiomeCondition
+    Option: inside
+  - ==: ExperienceCondition
+    Enabled: false
+    Experience: 0
+    Name: ExperienceCondition
+    Option: above
+  - ==: HealthCondition
+    Enabled: false
+    Health: 0.0
+    Name: HealthCondition
+    Option: above
+  - ==: ItemCondition
+    Enabled: false
+    ItemStack: null
+    Name: ItemCondition
+    Slot: null
+  - ==: PermissionCondition
+    Enabled: false
+    Name: PermissionCondition
+    Option: has
+    Permission: none
+  - ==: PlaceholderDataCondition
+    Enabled: false
+    ExpectedResult: none
+    InputType: string
+    Name: PlaceholderDataCondition
+    Option: equals
+    Placeholder: none
+  - ==: RegionCondition
+    Enabled: false
+    Name: RegionCondition
+    Option: inside
+    Region: none
+  - ==: TimeCondition
+    Enabled: false
+    Name: TimeCondition
+    Time: day
+  - ==: WeatherCondition
+    Enabled: false
+    Name: WeatherCondition
+    Weather: sunny
+  LootList: []
+  Name: Nex-test
+  Reset:
+    Hours: 0
+    Days: 1
+    Seconds: 0
+    Minutes: 0
+  RoundDownTime: false
