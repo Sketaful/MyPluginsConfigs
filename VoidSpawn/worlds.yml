@@ -1,0 +1,6 @@
+version: 2
+world_ghostworld:
+  mode: command
+  command: spawn
+  options:
+    command: op:wild ${player.name} world
