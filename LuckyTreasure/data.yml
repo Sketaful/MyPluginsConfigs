@@ -1,0 +1,4 @@
+# Showing the day and the treasure was shown.
+# It will reset after week, if > 7, then day = 0, treasure = 0;
+Day: 5
+Treasure_Show: 4

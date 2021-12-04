@@ -1,0 +1,78 @@
+# Version 1.11.0
+
+# If enabled = false the plugin will not do anything
+enabled: true
+
+# Performance mode
+# if enabled not every new chest is directly saved to the disk. This can be useful for big servers and servers with HDD
+# drives. !But his may lead to data loss if the server crashes!
+performance: false
+# only used if performance mode is set to true. Autosaves after set interval (in minutes)
+autoSaveInterval: 5
+
+# animation configuration
+animation:
+  # If true items are being animated. If false no animation will be drawn
+  enabled: false
+  # If true all items are being animated. If false only one item will be animated (only used if enabled = true)
+  animateAll: false
+
+# move items when they are moved into a sender chest by a hopper or another sender chest.
+# This feature could be not safe to use! Enable with caution.
+# keep in mind that setting this to true can imply a small loss of performance.
+#
+# To safe some resources it can be only triggered if the chest is full. Triggers the sorting as soon as no empty slot
+# is in the chest
+sendFromHopperOrSender: false
+sendFromHopperOrSenderNoEmptySlot: false
+
+# allows shulker boxes to be used as sender and/or receivers.
+# Breaking shulker boxes without deleting them from a sender/receiver system will result in errors.
+allowShulkerBoxes: false
+
+# allows the use of Regular Expressions in sets
+# example: '.*_log' to match all things that end with "_log"
+enableSetsRegex: true
+
+# defines whether user can break chests which are defined as sender and/or receivers
+# if set to true users CAN break containers registered by this plugin, if set to false users CANNOT break them.
+# keep in mind that setting this to false can imply a small loss of performance.
+allowBreakOfChest: true
+
+# ability to enable/disable certain chat messages
+chatMessages:
+  # sends a message to a player or the console after sorting, containing which and how many items are sorted
+  sorted: true
+  # sends a message if shulker boxes are disabled and a player tries tu use them
+  disabledShulkerBoxes: true
+  # sends a message if a player tries to break a sender/receiver chest
+  breakingChests: true
+  # sends a message if a chest is defined as a receiver but does not have an item frame attached to it
+  noItemFrame: true
+  # sends a message to a player if items will be sorted into an 'air chest'
+  sortinToAirChest: true
+  # sends a message to a player or the console if no receivers are configured for a sender
+  noReceivers: true
+  # sends a message to a player or the console if a chest is full after the sorting is completed
+  fullChest: true
+
+# define sets if you want similar items to be moved to just one chest
+# look at the examples if you want to add a new set.
+# define a new array by beginning the line with - []
+# separate the items by commas.
+# you have to use the so called 'namespaced IDs'. You can find those in the minecraft wiki for almost all items.
+# example namespaced IDs: https://minecraft.gamepedia.com/Flower#Data_values
+sets:
+# example 1.1: Move all wool colors to the same chest (using explicit all ids)
+# remove the '#' in the next two lines if you want to move all different colored wool blocks into one chest
+#  - [white_wool, orange_wool, magenta_wool, light_blue_wool, yellow_wool, lime_wool, pink_wool, gray_wool,
+#  light_gray_wool, cyan_wool, purple_wool, blue_wool, brown_wool, green_wool, red_wool, black_wool]
+
+# example 1.2: Move all wool colors to the same chest (using regex)
+# remove the '#' in the next line if you want to move all different colored wool blocks into one chest
+#  - ['.*_wool']
+
+# example 2: Move all flowers to the same chest
+# remove the '#' in the next two lines if you want to move all different flowers into one chest
+#  - [dandelion, poppy, blue_orchid, allium, azure_bluet, red_tulip, orange_tulip, white_tulip, pink_tulip,
+#  oxeye_daisy, cornflower, lily_of_the_valley, wither_rose, sunflower, lilac, rose_bush, peony]

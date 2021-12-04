@@ -1,0 +1,17 @@
+spawns:
+  default:
+    world: 3aa71b64-6f2f-46db-a51f-70ea021ecd1a
+    world-name: world_ghostworld
+    x: -43.44499723511186
+    y: 76.0
+    z: 0.3441922672077107
+    yaw: -99.74384307861328
+    pitch: -3.7503249645233154
+  newbie:
+    world: 3aa71b64-6f2f-46db-a51f-70ea021ecd1a
+    world-name: world_ghostworld
+    x: -43.44499723511186
+    y: 76.0
+    z: 0.3441922672077107
+    yaw: -99.74384307861328
+    pitch: -3.7503249645233154

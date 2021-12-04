@@ -1,0 +1,143 @@
+# Treasure SETTING, You can made you own treasure and check it in /tr gui!
+# Treasure EXP
+Treasure_exp:
+  common: 1000
+  normal: 2000
+  better: 5000
+  perfect: 10000
+  mystery: 50000
+Treasure_name:
+  common: '&f&lCommon Treasure'
+  normal: '&a&lNormal Treasure'
+  better: '&e&lBetter Treasure'
+  perfect: '&6&lPerfect Treasure'
+  mystery: '&d&lMystery Treasure'
+Treasure_texture:
+  common: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJkZDYyZjI1ZjRhNDljYzQyZTA1NGEzZjIxMmMzZTAwOTIxMzgyOTkxNzJkN2Q4ZjNkNDM4MjE0Y2E5NzJhYyJ9fX0=
+  normal: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTZjNGFjMDA3MzZkODU1MWM4Y2VkNGNmNWQ4NTJjMDVmYjhmZGU3NDNkZWNhNmRhMzM0YzgxNTRiMmVlYzNmNyJ9fX0=
+  better: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA0NTc0MzkxMGYyM2NlY2ZmMTAwOGFiNmFkZjc5N2Q4ZTYyOTdiMmE0M2M3MGRmNTcyZjJlODI0NTY5NzIzNyJ9fX0=
+  perfect: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg1NTk0Yjc4ZThmYjNlM2JkN2NlM2NlMmJmYTk0ZjEzOGE5ZWJjMWJhZWQ2NzlhZWJmNWY2M2QxOTYxYzhkZSJ9fX0=
+  mystery: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjdkZjM5OTFkOTE4Zjk1OTI0OGZjZjg0ZjE3YmI2NTJkMTJiN2Y4NjI5MWQ1MjIyN2MyNWU5MjlmMmU0YjRkZiJ9fX0=
+Chance:
+  common: 0.4
+  normal: 0.35
+  better: 0.15
+  perfect: 0.07
+  mystery: 0.03
+Treasure_command:
+  common:
+  - money give %player% 1
+  normal:
+  - money give %player% 1
+  better:
+  - money give %player% 1
+  perfect:
+  - money give %player% 1
+  mystery:
+  - money give %player% 1
+Treasure:
+  common:
+    COAL:
+      lower: 128
+      upper: 192
+      chance: 0.5
+    GOLDEN_APPLE:
+      lower: 8
+      upper: 16
+      chance: 0.4
+    LEATHER:
+      lower: 32
+      upper: 64
+      chance: 0.5
+    GOLD_INGOT:
+      lower: 32
+      upper: 64
+      chance: 0.5
+    ARROW:
+      lower: 128
+      upper: 192
+      chance: 0.4
+  normal:
+    LEATHER:
+      lower: 64
+      upper: 128
+      chance: 0.5
+    GOLD_BLOCK:
+      lower: 16
+      upper: 32
+      chance: 0.4
+    OBSIDIAN:
+      lower: 32
+      upper: 64
+      chance: 0.4
+    ENCHANTED_GOLDEN_APPLE:
+      lower: 1
+      upper: 2
+      chance: 0.2
+    DIAMOND_BLOCK:
+      lower: 6
+      upper: 12
+      chance: 0.3
+  better:
+    ENDER_PEARL:
+      lower: 32
+      upper: 64
+      chance: 0.3
+    BLAZE_ROD:
+      lower: 16
+      upper: 64
+      chance: 0.5
+    DIAMOND_BLOCK:
+      lower: 4
+      upper: 8
+      chance: 0.3
+    ENCHANTED_GOLDEN_APPLE:
+      lower: 2
+      upper: 4
+      chance: 0.1
+    NETHER_STAR:
+      lower: 1
+      upper: 3
+      chance: 0.3
+  perfect:
+    DIAMOND_BLOCK:
+      lower: 8
+      upper: 16
+      chance: 0.3
+    NETHER_STAR:
+      lower: 4
+      upper: 5
+      chance: 0.4
+    GOLD_BLOCK:
+      lower: 32
+      upper: 64
+      chance: 0.5
+    NETHERITE_SCRAP:
+      lower: 16
+      upper: 32
+      chance: 0.2
+    ENCHANTED_GOLDEN_APPLE:
+      lower: 4
+      upper: 6
+      chance: 0.2
+  mystery:
+    NETHERITE_SCRAP:
+      lower: 32
+      upper: 64
+      chance: 0.2
+    ENCHANTED_GOLDEN_APPLE:
+      lower: 6
+      upper: 8
+      chance: 0.4
+    TOTEM_OF_UNDYING:
+      lower: 1
+      upper: 2
+      chance: 0.3
+    END_CRYSTAL:
+      lower: 5
+      upper: 10
+      chance: 0.3
+    TRIDENT:
+      lower: 1
+      upper: 1
+      chance: 0.2

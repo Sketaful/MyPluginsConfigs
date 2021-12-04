@@ -1,0 +1,2 @@
+&2Välkommen {PLAYER}&6!
+&6Spelare online just nu:&c {ONLINE} &6- Tiden är:&c {WORLDTIME12}

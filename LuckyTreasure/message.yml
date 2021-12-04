@@ -1,0 +1,226 @@
+# Treasure setting GUI item lore
+Treasure_Setting_GUI_item_lore: '&8↓ Command(s) and texture setting'
+Treasure_Setting_GUI_item_down_lore:
+- '&aLeft-Click to edit the command'
+- '&eMiddle-Click to add new command'
+- '&bRight-Click to change the line'
+- '&cShift+Left-Click to change the texture'
+- '&DShift+Right-Click to remove this command'
+World_Edit_GUI_item_lore: '&8Control world setting'
+World_Edit_GUI_item_down_lore:
+- '&aLeft-Click to edit the line'
+- '&bRight-Click to change the edit line'
+- '&cShift+Right-Click to remove this world'
+No_exist_treasure: '&7Don''t have any treasure'
+Monday: '&cMonday'
+Tuesday: '&6Tuesday'
+Wednesday: '&eWednesday'
+Thursday: '&aThursday'
+Friday: '&bFriday'
+Saturday: '&9Saturday'
+Sunday: '&dSunday'
+TR_player_GUI_title: LuckyTreasure - Main
+TR_player_GUI_back: '&6Back to main menu'
+TR_player_GUI_content_item_name: '&6Treasure Content'
+TR_player_GUI_content_item_lore:
+- '&8Check what items inside the treasure'
+- '&8It will refresh the treasure shown by week'
+- '&7Day: %luckytreasure_day%'
+- null
+- ''
+- '&aClick to open the treasure content'
+TR_player_GUI_exist_item_name: '&bExist treasure'
+TR_player_GUI_exist_item_lore:
+- '&8Check how man treasure exist now'
+- '&7Shown: %luckytreasure_shown%&8/&7%luckytreasure_maxtreasure%'
+- '&7Status: %luckytreasure_exist%'
+- ''
+- '&aClick to open the exist treasure'
+TR_exist_GUI_title: Exist treasure (Page.%page%)
+TR_exist_back: '&6Back to main menu'
+TR_exist_player_GUI_item_lore:
+- '&8Look on this treasure remain time'
+- '&8Also where is this and range'
+- '&7Remain time: &b%time%'
+- '&7Range: &6%range%'
+- '&7World: &6%world%'
+TR_exist_admin_GUI_item_lore:
+- '&8Look on this treasure remain time'
+- '&8Also where is this and range'
+- '&7Remain time: &b%time%'
+- '&7Range: &6%range%'
+- '&7World: &6%world%'
+- ''
+- '&aLeft-Click teleport to the treasure'
+- '&bShift+Right-Click remove this treasure'
+TR_GUI_title: LuckyTreasure - Main
+TR_config_item_name: '&eConfig setting'
+TR_config_item_lore:
+- '&8Control all config setting'
+- ''
+- '&aClick to open the config setting'
+TR_content_item_name: '&aContent view'
+TR_content_item_lore:
+- '&8Enter the lucky treasure gui'
+- '&8Or enter the exist treasure view'
+- ''
+- '&aLeft-Click to open the content view'
+- '&bRight-Click to open the treasure exist'
+TR_treasure_item_name: '&6Treasure setting'
+TR_treasure_item_lore:
+- '&8Including commands and textures'
+- ''
+- '&aClick to open the treasure setting'
+Config_status_enable: '&2Enabled'
+Config_status_disable: '&4Disabled'
+Config_edit_GUI_title: Main - Config Setting
+Config_edit_GUI_Back: '&6Back to the main menu'
+Config_detect_world_name: '&bDetect World'
+Config_detect_world_lore:
+- '&8Check the treasure time in detect world'
+- '&8It can change the detect world'
+- '&8by enter the world name'
+- '&7Status: &b%world%'
+- '&cIt may needs to restart the server'
+- ''
+- '&aClick to change the detect world'
+Config_disable_random_treasure_name: '&eDisable Random Treasure'
+Config_disable_random_treasure_lore:
+- '&8Check whether not spawn treasure in random time'
+- '&7Status: %status%'
+- ''
+- '&aClick to change the status'
+Config_GUI_back_button_name: '&6Gui Back button'
+Config_GUI_back_button_lore:
+- '&8Check whether have back button in &6/tr'
+- '&7Status: %status%'
+- ''
+- '&aLeft-Click to change the status'
+- '&bRight-Click to change the back command'
+Config_max_treasure_name: '&cMax Treasure'
+Config_max_treasure_lore:
+- '&8Check the maximum treasure'
+- '&8spawn by week'
+- '&7Status: &c%status%'
+- ''
+- '&aClick to change the max treasure'
+Config_no_treasure_name: '&dNo Treasure'
+Config_no_treasure_lore:
+- '&8Checking how many percentage will'
+- '&8not spawn the random treasure'
+- '&7Status: &d%value%%'
+- ''
+- '&aClick to change the no treasure value'
+Config_enable_world_name: '&6Enable World'
+Config_enable_world_lore:
+- '&8Control the treasure in which world'
+- '&8You may add the world by enter the name'
+Config_enable_world_down_lore:
+- ''
+- '&aLeft-Click to enter a new enable world'
+- '&bRight-Click to open the world edit'
+Config_treasure_time_lower_upper_name: '&6Treasure Time Lower And Upper'
+Config_treasure_time_lower_upper_lore:
+- '&8Control the minimum time to spawn random treasure'
+- '&8For minecraft &60     &7= &e0 tick      &7= &b6:00am'
+- '&8For minecraft &620000 &7= &e20000 ticks &7= &b2:00am'
+- '&8Careful this variable type is LONG'
+- '&7Status: &6%lower%&7-&6%upper%'
+- ''
+- '&aClick to change the treasure time lower and upper'
+Config_treasure_time_name: '&bTreasure Time'
+Config_treasure_time_lore:
+- '&8Control the treasure existing time'
+- '&8You must to know &620 &7= &b20minutes'
+- '&7Status: &b%time% min&7(s)'
+- ''
+- '&aClick to change the treasure time'
+Config_treasure_exp_name: '&2Treasure Exp Earn'
+Config_treasure_exp_lore:
+- '&8Control whether have exp in treasure'
+- '&7Status: %status%'
+- ''
+- '&aClick to change the status'
+Config_treasure_particle_name: '&dTreasure Particle'
+Config_treasure_particle_lore:
+- '&8Control whether have particle'
+- '&8around the treasure'
+- '&7Status: %status%'
+- ''
+- '&aClick to change the status'
+Config_treasure_command_name: '&bTreasure Command'
+Config_treasure_command_lore:
+- '&8Control whether have execute commands'
+- '&8When open the treasure'
+- '&7Status: %status%'
+- ''
+- '&aClick to change the status'
+Config_treasure_item_name: '&eTreasure Item'
+Config_treasure_item_lore:
+- '&8Control whether have item(s) in treasure'
+- '&8when open the treasure'
+- '&7Status: %status%'
+- ''
+- '&aClick to change the status'
+World_edit_GUI_title: World Edit (Page.%page%)
+World_edit_GUI_Back: '&6Back to the config setting'
+Treasure_setting_GUI_title: Treasure setting (Page.%page%)
+Treasure_setting_GUI_Back: '&6Back to the mainmenu'
+GUI_title: LuckyTreasure (Page.%page%)
+GUI_back: '&6Back to the main menu'
+GUI_previous: '&7Previous page'
+GUI_next: '&7Next page'
+GUI_close: '&cClose Menu'
+Treasure_Lore:
+- '&7Exp: &e%exp%'
+- '&7Chance: &a%chance%'
+GUI_player_treasure_down_lore:
+- ''
+- '&aLeft-click to open treasure content'
+GUI_admin_treasure_down_lore:
+- ''
+- '&aLeft-Click to open treasure edit'
+- '&eMiddle-Click to rename the treasure'
+- '&bShift+Right-Click to remove this treasure'
+GUI_create_treasure_back: '&6Back to lucky treasure'
+GUI_ceate_treasure_title: '%treasure% (Page.%page%)'
+GUI_no_perm_name: '&cNo Permission'
+GUI_create_treasure_info_name: '&7Treasure setting'
+GUI_create_treasure_info_lore:
+- ''
+- '&aLeft-Click to edit the chance'
+- '&bRight-Click to edit the exp'
+GUI_create_treasure_name: '&7Create treasure'
+GUI_create_treasure_lore:
+- ''
+- '&aClick to create a custom treasure'
+GUI_player_create_treasure_item_lore:
+- '&7Chance: &a%chance%'
+- '&7Lower: &6%lower%'
+- '&7Upper: &6%upper%'
+GUI_create_treasure_item_lore:
+- '&7Chance: &a%chance%'
+- '&7Lower: &6%lower%'
+- '&7Upper: &6%upper%'
+- ''
+- '&aLeft-Click to edit the chance'
+- '&eMiddle-Click to edit the quantity'
+- '&bShift+Right-Click to remove this item'
+Treasure_no_location_message: '&7[&eLucky&6Treasure&7] &7It doesn''t have any treasure
+  location now'
+Treasure_location_message: '&7[&eLucky&6Treasure&7] %location%'
+Treasure_time_message: '&7[&eLucky&6Treasure&7] Treasure time: &b%time%'
+Reload_message: '&7[&eLucky&6Treasure&7] &aThis plugin has been reload.'
+Help_message: '&7[&eLucky&6Treasure&7] &cDid you use the wrong method of this command?
+  Try &6/tr help'
+No_perm_message: '&7[&eLucky&6Treasure&7] &cYou don''t have permission'
+GetTreasure_message:
+- '&7[&eLucky&6Treasure&7] &7Player &6%player% &7has found %treasure%'
+OpenPlayer_title_message: '%treasure%'
+OpenPlayer_subtitle_message: is found!
+Message:
+- '&7[&eLucky&6Treasure&7] %treasure% &7has been found in &6%world% &7It will gone
+  at &b%time%m&7. Treasure is near at &6%treasure_X%&7, &6%treasure_Z%&7.'
+Gone_message: '&7[&eLucky&6Treasure&7] &7One of the %treasure% &7is gone...'
+Have_treasure_today_message: '&7[&eLucky&6Treasure&7] &7It will show up a &6treasure
+  &7today!'
