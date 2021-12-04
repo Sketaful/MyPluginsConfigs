@@ -1,0 +1,84 @@
+# Nameless Plugin configuration
+# Something not working? Please see our troubleshooting guide: https://docs.namelessmc.com/en/integrations/plugin-troubleshooting
+
+# For example http(s)://yoursite.com/index.php?route=/api/v2/API_KEY
+# Enable the API and obtain the API URL in StaffCP > Configuration > API
+# After setting this, you need to do a full server restart, because the plugin's reload command won't work.
+api-url: "http://server.sketaful.se/index.php?route=/api/v2/xsoau3WcVYBD80Tjz1RrmyQ65NM2SXHi"
+
+# Enter this if you wish for the plugin to send data about this server
+# and its players to the website. This is required for many features like placeholder uploading,
+# group synchronization, username synchronization, online status, ...
+# You can find this in StaffCP > Integrations > Minecraft > Minecraft Servers
+server-id: 1
+
+# This feature sends information about the server and online players to
+# your NamelessMC website. This value is in seconds. Increase to lower
+# the frequency that data is sent. Decrease to send data more frequently.
+# Setting this too low can cause lag. Set to 0 to disable.
+server-data-upload-rate: 10
+
+# You can add PlaceholderAPI placeholders here, they will be sent to the website to be used by NamelessMC or modules.
+# Requires entering server-id above.
+upload-placeholders:
+  enabled: false
+  # global placeholders to send to the website (list of placeholder names without %%). Currently not used by the website.
+  global: []
+  # player-specific placeholders to send to the website (list of placeholder names without %%)
+  player: []
+
+
+# Enable retrieving PlaceholderAPI placeholders (NOT the same as sending placeholders to the website!)
+# https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders#nameless-plugin
+enable-placeholders: false
+
+# Number of milliseconds in between notifications request
+# Lower number means more frequent updates of placeholders, but higher
+# network usage.
+placeholders-request-delay: 2000
+
+# Turn on debug mode for the underlying NamelessMC Java API
+api-debug-mode: false
+
+# Send a message to players who don't have a NamelessMC account when they join
+not-registered-join-message: true
+
+# For a list of valid languages, check file names in the 'languages' directory.
+# To help translate the plugin to your language, visit https://translate.namelessmc.com
+# If you want to customize messages for your server you can edit the language files.
+# WARNING: The language file will be replaced with the default when new messages are added in a plugin update
+language: sv_SE
+
+# EXPERIMENTAL: Use usernames instead of UUIDs to identify players. Not recommended.
+api-usernames: false
+
+user-sync:
+  # Number of seconds in between syncs
+  poll-interval: 30
+  log: true
+  # List of UUIDs to exclude (never add to or remove from the whitelist or ban list)
+  # These UUIDs must be written with dashes. If you've enabled api-usernames, enter usernames instead.
+  exclude: []
+
+  # Auto whitelist registered players.
+  #
+  # When enabled, the plugin will automatically whitelist players that are registered on the website.
+  # Warning: Anyone who is not registered on the website will be removed from the whitelist, also
+  # if they were added before enabling this option!
+  whitelist:
+    enabled: false
+    # Only whitelist verified users
+    verified-only: true
+
+  # Ban players who are banned on the website, and pardon players who are not banned on the website.
+  bans:
+    enabled: true
+
+# Periodically send website announcements in chat
+announcements:
+  # Every <interval> minutes a random announcement is chosen (if there are any) and sent to the player
+  # Set to 0 to disable
+  interval: 0
+  # If specified, it will only show announcements with the respective display.
+  # see https://github.com/NamelessMC/Nameless/wiki/v2-API#getannouncements-get
+  # display: Forums
