@@ -441,22 +441,23 @@ Places:
       DisplayName: Tetris Master
       Type: normal
   stone:
-    100:
-      Goal: Place 100 Stones.
-      Message: One hundred placed stones!
-      Name: place_100_stone
-      DisplayName: Stone Addict
-      Type: normal
     1000:
-      Goal: Place 1000 stones.
+      Goal: Place 1000 Stones.
       Message: One thousand placed stones!
       Name: place_1000_stone
-      DisplayName: Stone God
+      DisplayName: Stone Addict
+      Type: normal
+  wood:
+    1000:
+      Goal: Place 1000 wood.
+      Message: One thousand placed wood!
+      Name: place_1000_wood
+      DisplayName: Wood God
       Type: normal
       Reward:
         Command:
-          Execute: "say §7ALERT: §4PLAYER§7 has become the §4STONE GOD§7!"
-          Display: Become the Stone God!
+          Execute: "say §7ALERT: §4PLAYER§7 has become the §4WOOD GOD§7!"
+          Display: Become the Wood God!
   # Item custom display name, for example Mario's head from the Custom Heads plugin.
   §eMario:
     1:
