@@ -1,0 +1,8 @@
+join: '&7[&6TNTRun&7]'
+subjoin: '&6{PLAYER} &7har gått med'
+win: '&6Du vann'
+subwin: '&7Grattis'
+starting: '&7[&6TNTRun&7]'
+substarting: '&7Startar om &6{COUNT}'
+start: '&7[&6TNTRun&7]'
+substart: '&7Spelet har startat'

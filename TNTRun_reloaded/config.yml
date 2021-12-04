@@ -1,0 +1,176 @@
+# TNTRun_reloaded configuration file     #
+#                                        #
+# The TNTRun_reloaded plugin             #
+# Based on TNTRun by Shevchikden         #
+#                                        #
+# TNTRun_reloaded author steve4744       #
+#                                        #
+usexpbar:
+  countdown: true
+  timelimit: true
+special:
+  UseExpBar: true
+  UseBossBar: true
+  BossBarColor: RANDOM
+  UseTitle: true
+  UseScoreboard: true
+  UseDoubleJumpPermissions: false
+  CheckForNewVersion: true
+  Metrics: false
+UseRankInChat:
+  groupcolormeta: false
+  enabled: false
+  usegroup: true
+  useprefix: false
+freedoublejumps:
+  enabled: false
+  amount: 10
+commandsonwin:
+- say {PLAYER} vann TNTRun i arenan {ARENA}
+- say Grattis!
+fireworksonwin:
+  enabled: false
+  duration: 4
+broadcastwinlevel: 2
+invitationmessage:
+  enabled: true
+  allowspectate: true
+  excludeplayers: false
+  excludeoriginator: false
+parties:
+  enabled: true
+menu:
+  item: TNT
+  pvpitem: IRON_BLOCK
+  panecolor: LIGHT_BLUE
+  includedisabled: false
+sounds:
+  arenastart:
+    enabled: true
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 10
+    pitch: 1.0
+  itemselect:
+    enabled: true
+    sound: UI_BUTTON_CLICK
+    volume: 1
+    pitch: 1.0
+  blockbreak:
+    enabled: true
+    sound: BLOCK_SAND_BREAK
+    volume: 5
+    pitch: 1.0
+anticamping:
+  teleporttime: 5
+  enabled: true
+leaderboard:
+  maxentries: 10
+doublejumps:
+  multiplier: 1.5
+  height: 0.7
+items:
+  vote:
+    use: true
+    material: DIAMOND
+    name: '&2&lRösta'
+    slot: 0
+  info:
+    use: true
+    material: EMERALD
+    name: '&2&lInfo'
+    slot: 1
+  shop:
+    use: true
+    material: NETHER_STAR
+    name: '&2&lAffär'
+    slot: 2
+  stats:
+    use: true
+    material: PLAYER_HEAD
+    name: '&2&lStats'
+    slot: 3
+  leave:
+    use: true
+    material: GREEN_BED
+    name: '&2&lLämna'
+    slot: 8
+  heads:
+    use: true
+    material: GLOWSTONE_DUST
+    name: '&e&lHeadsPlus'
+    slot: 4
+  tracker:
+    use: true
+    material: COMPASS
+    name: '&e&lSpåra spelare'
+    slot: 5
+scoreboard:
+  header: '&6&lTNTRUN'
+  displaydoublejumps: false
+  removefromspectators: true
+  waiting:
+  - '&fVälkommen till TNTRun'
+  - '&a '
+  - '&fArena: &6&l{ARENA}'
+  - '&b '
+  - '&fSpelare: &a&l{PS}&7&l/&c&l{MPS}'
+  - '&c '
+  - '&fRöster som behövs: &6&l{VOTES}'
+  - '&d '
+  - '&fStartar om: &6&l{COUNT}'
+  playing:
+  - '&fSpelar TNTRun'
+  - '&fpå arena: &6&l{ARENA}'
+  - '&b '
+  - '&fSpelare: &a&l{PS}&7&l/&c&l{MPS}'
+  - '&c '
+  - '&fFörlorade spelare: &a&l{LOST}'
+  - '&d '
+  - '&fSlutar om: &c&l{LIMIT}'
+database: file
+MySQL:
+  host: host
+  port: 12345
+  name: tntrun
+  table: stats
+  user: root
+  pass: password
+  useSSL: false
+  flags: allowPublicKeyRetrieval=true
+  legacyDriver: true
+signs:
+  prefix: '&6&lTNTRun'
+  join: '[Gå med]'
+  status:
+    disabled: '&cAvstängd'
+    ingame: '&c&l{PS}&8/&c&l{MPS}'
+    regenerating: '&6&lRegenererar...'
+    waiting: '&a&l{PS}&8/&a&l{MPS}'
+  blockcolour:
+    disabled: ''
+    ingame: ''
+    starting: ''
+    waiting: ''
+  allowspectate: false
+bungeecord:
+  randomarena: true
+  enabled: false
+  hub: lobby
+  useMOTD: true
+  stopserver: false
+  useUUID: false
+currency:
+  prefix: ''
+  suffix: ' Mynt'
+language: en-GB
+debug: false
+shop:
+  enabled: true
+  name: '&6&lTNTRun &f&lAFFÄR'
+  size: 27
+  doublejump:
+    maxdoublejumps: 10
+  logpurchases: true
+  onleave:
+    removepurchase: false
+  showmoneyitem: GOLD_INGOT

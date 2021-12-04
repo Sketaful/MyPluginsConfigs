@@ -1,0 +1,8 @@
+arenas:
+  TwiceRise:
+    '0':
+      x: -53
+      y: 90
+      z: -125
+      world: world_ghostworld
+leaderboards: {}

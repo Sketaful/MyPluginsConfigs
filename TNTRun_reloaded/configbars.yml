@@ -1,0 +1,3 @@
+waiting: '&6Minst antal spelare:&r {MIN}&6, nuvarande antal:&r {COUNT}'
+starting: '&6Arenan startar om:&r {SECONDS} seconds'
+playing: '&6Tid kvar:&r {SECONDS} &6Spelare i spel:&r {COUNT}'

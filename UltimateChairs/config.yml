@@ -1,0 +1,90 @@
+# +-------------------------------------------+ #
+# |                                           | #
+# |     UltimateChairs Configuration File     | #
+# |                                           | #
+# +-------------------------------------------+ #
+
+# List of block types to behave like chairs.
+# Any block can be added to the list.
+# STAIR - All stair types.
+# SLAB - All slab types.
+# CARPET - All carpet types.
+supported_blocks:
+  - STAIR
+  - SLAB
+  - CARPET
+
+# Worlds where chair behaviour should be disabled.
+disabled_worlds:
+  - world_name_here
+
+# Should sitting player receive any potion effects.
+chair_apply_potion_effects: true
+
+# Potion effects list.
+# Usage: POTION_EFFECT_NAME:AMPLIFIER:DURATION:IS_AMBIENT
+applied_potion_effects_list:
+  - REGENERATION:0:3
+
+# How long to wait in seconds before applying effect to sitting player.
+apply_effect_after_seconds: 15
+
+# Should stairs/slabs require at least 2 signs placed to work as chairs.
+chair_requires_signs: false
+
+# Should carpet require fence bellow to work as a chair.
+carpet_chair_requires_fence: false
+
+# Allow sitting in a chair when holding any block in hand.
+allow_sit_holding_anything: false
+
+# Allow sitting underwater.
+allow_sit_underwater: true
+
+# Default chairs to off. Players will have to use "/chair toggle" command to enable sitting.
+default_chairs_off: false
+
+# Distance player has to be within to use the chair. Set to 0 to remove this limitation.
+max_interaction_distance: 4
+
+# Should plugin check if player has permission to sit down or use "/chair toggle" behavior.
+check_permissions: true
+
+# Should plugin check and notify when there is a new update available.
+check_for_updates: true
+
+# Hook into GriefPrevention plugin.
+griefprevention_support: true
+
+# Hook into PlotSquared plugin & register "chairs" flag.
+plotsquared_support: true
+
+# Hook into Residence plugin & register "chairs" flag.
+residence_support: true
+
+# Hook into WorldGuard plugin & register "allow-chair-sitting" flag.
+worldguard_support: true
+
+# Should messages be sent in action bar instead of chat.
+messages_in_action_bar: true
+
+chair_occupied_message: "This chair is already occupied"
+chair_too_far_away: "The chair is too far away to sit down"
+chair_disabled_for_player: "To enable chairs type: /chair"
+chair_toggle_on_message: "You have &2enabled&r chair behavior"
+chair_toggle_off_message: "You have &4disabled&r chair behavior"
+
+griefprevention_no_sitting: "You can't sit in this claim"
+plotsquared_no_sitting: "You can't sit in this plot"
+residence_no_sitting_flag: "You can't sit in this residence"
+worldguard_no_sitting_flag: "You can't sit in this region"
+
+invalid_sit_location: "You are unable to sit in this location"
+player_not_found: "&cPlayer not found or is offline."
+player_kicked: "&cPlayer was kicked from the chair."
+no_permission: "You don't have permission to do that."
+only_in_game: "Command can only be run in-game."
+reload_config: "Configuration reloaded."
+
+# Config version. Do NOT change this value.
+config_version: 2.5

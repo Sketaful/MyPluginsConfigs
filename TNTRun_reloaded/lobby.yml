@@ -1,0 +1,9 @@
+lobby:
+  world: world_ghostworld
+  vector:
+    ==: Vector
+    x: -55.23299683439299
+    y: 89.0
+    z: -123.99726848995874
+  yaw: 86.51196
+  pitch: 5.700021
