@@ -1,0 +1,9 @@
+removeOnEmpty: true
+removeBarrelsAfterSeconds: -1
+protectFromOtherPlayers: false
+messages:
+  deathLocation: You died at [{0}, {1}, {2}]
+  barrelCreated: Created death barrel.
+  barrelInventoryTitle: DeathBarrel
+  barrelProtectedBreak: This barrel is locked. Only the owner can break it.
+  barrelProtectedOpen: This barrel is locked. Only the owner can access it.
