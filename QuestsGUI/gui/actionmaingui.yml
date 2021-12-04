@@ -1,0 +1,102 @@
+# QuestsGUI file must stay in UTF-8 encoding
+questsgui:
+  ==: org.browsit.milkgui.gui.type.BasicGUI
+  dragItems: false
+  enterableItems: []
+  gui:
+    title: 'Action: DeathFail'
+    rows: 2
+    inventory:
+    - slot: 0
+      item:
+        material: NAME_TAG
+        amount: 1
+        durability: 0
+        displayName: §eSet name
+        lore: null
+        enchants: []
+      task: '1'
+    - slot: 1
+      item:
+        material: GOLDEN_SWORD
+        amount: 1
+        durability: 0
+        displayName: §6Player
+        lore: null
+        enchants: []
+      task: '2'
+    - slot: 2
+      item:
+        material: CLOCK
+        amount: 1
+        durability: 0
+        displayName: §6Timer
+        lore: null
+        enchants: []
+      task: '3'
+    - slot: 3
+      item:
+        material: NOTE_BLOCK
+        amount: 1
+        durability: 0
+        displayName: §6Effect
+        lore: null
+        enchants: []
+      task: '4'
+    - slot: 4
+      item:
+        material: WATER_BUCKET
+        amount: 1
+        durability: 0
+        displayName: §6Weather
+        lore: null
+        enchants: []
+      task: '5'
+    - slot: 5
+      item:
+        material: SKELETON_SKULL
+        amount: 1
+        durability: 2
+        displayName: §eSet mob spawns
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '6'
+    - slot: 6
+      item:
+        material: PAPER
+        amount: 1
+        durability: 0
+        displayName: §eDenizen script
+        lore:
+        - §7(None set)
+        enchants: []
+      task: '7'
+    - slot: 7
+      item:
+        material: TNT
+        amount: 1
+        durability: 0
+        displayName: '§eFail the quest:'
+        lore:
+        - §bYes
+        enchants: []
+      task: '8'
+    - slot: 16
+      item:
+        material: SLIME_BALL
+        amount: 1
+        durability: 0
+        displayName: §aSave
+        lore: null
+        enchants: []
+      task: '9'
+    - slot: 17
+      item:
+        material: BARRIER
+        amount: 1
+        durability: 0
+        displayName: §cExit
+        lore: null
+        enchants: []
+      task: '10'

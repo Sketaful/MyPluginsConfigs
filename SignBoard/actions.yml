@@ -1,0 +1,7 @@
+# The actions file
+actions:
+  entities:
+    2916b3b5-0e2a-444e-a6fe-068a199c840a:
+      show_board: true
+      nametag: ignore
+      give_book: false

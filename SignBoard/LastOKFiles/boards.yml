@@ -1,0 +1,78 @@
+# The boards file
+boards:
+  '[signboard]':
+    owner: 5eea05cc-ba1a-4a98-b037-942842e17cc1
+    content:
+    - '&a====SIGNBOARD====\n'
+    - '&aSignboard&r &c&nextends&r the text a'
+    - sign can show! \n\nWhen a player looks
+    - directly at a sign, &aSignboard&r
+    - checks if there is any extended text
+    - for that sign. \n\nIf there is, &aSignboard
+    - will show that text to the player using
+    - the scoreboard area. \n\nAs soon as the
+    - player looks away, the scoreboard will
+    - be cleared and any previous content
+    - will be restored.\n\n
+    - '&eThe root command is &d/sb&r - try it!!\n\n'
+    - \n&aSignboard&r is a great way to provide
+    - players with plenty of information!!!\n\n
+    - You get 15 lines of 40 characters
+    - each, that's &b600 extra characters&r!
+  '[Rules]':
+    owner: 4f7ae9c2-0839-4f71-919f-63274d71087e
+    content:
+    - '&f---==== &2RULES &f====---'
+    - '&r'
+    - '&r'
+    - '&r'
+    - '&r'
+    - '&r'
+    - '&r'
+    - '&r'
+    - '&r'
+    - defaultBoardLine07
+    - defaultBoardLine06
+    - defaultBoardLine05
+    - defaultBoardLine04
+    - defaultBoardLine03
+    - defaultBoardLine02
+    - defaultBoardLine01
+  '[firststart]':
+    owner: 4f7ae9c2-0839-4f71-919f-63274d71087e
+    content:
+    - '&2---=== Välkommen! ===---'
+    - defaultBoardLine15
+    - '&bVälkommen till &eSwede&9Craft! '
+    - ''
+    - '&bVar inte orolig för det här området. '
+    - '&bDu kommer bara hamna här första gången'
+    - '&bdu loggar in. '
+    - '&bSe det som ett litet välkomstområde.'
+    - '&r'
+    - '&3Tanken med det området är att snabbt'
+    - '&3kunna gå igenom lite saker som:'
+    - '&r'
+    - '&b&oRegler, funktioner, etc.'
+    - defaultBoardLine03
+    - defaultBoardLine02
+    - '&r'
+  '[npc]':
+    owner: 4f7ae9c2-0839-4f71-919f-63274d71087e
+    content:
+    - '&2-= &aNPC''er och Uppdrag &2=-'
+    - defaultBoardLine15
+    - '&6NPC''er kommer du springa på flera'
+    - '&6gånger på den här servern.'
+    - '&eDessa kommer ge uppdrag,'
+    - '&eförklara saker och mer. '
+    - '&6Var inte rädd att testa högerklicka på'
+    - '&6dem, men akta dig för att attackera.'
+    - '&r'
+    - '&eInte alla är ok med det.'
+    - '&r'
+    - '&dUppdragen som NPC''er erbjuder'
+    - '&dframöver kommer ge allt från'
+    - '&dsaker till nya färdiheter.'
+    - defaultBoardLine02
+    - '&aTesta högerklicka på Elanya.'
