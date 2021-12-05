@@ -423,23 +423,35 @@ BungeeMode: false
 # - custom display name of items (e.g. the name of a player's head).
 Places:
   chest:
-    5:
+    10:
       # Optional, used in /aach list when achievement not yet received, and in advancements.
-      Goal: Place 5 chests.
+      Goal: Place 10 chests.
       # Description, displayed when receiving achievement, and in /aach book and /aach list.
-      Message: §6You have placed 5 chests!
+      Message: §6You have placed 10 chests!
       # Database name, must also be used in /aach delete and /aach check.
-      Name: place_5_chest
+      Name: place_10_chest
       # Displayed when receiving achievement, and in /aach book and /aach list.
-      DisplayName: Storage Expert
+      DisplayName: Storage Padawan
       # Used to select the display item for this achievement in gui.yml.
       Type: normal
     50:
       Goal: Place 50 chests.
       Message: §6You have placed 50 chests!
       Name: place_50_chest
-      DisplayName: Tetris Master
+      DisplayName: Storage Master
       Type: normal
+    200:
+      Goal: Place 200 chests.
+      Message: &6Wow! You have placed 200 chests!
+      Name: place_200_chest
+      DisplayName: Storage Jedi
+      type: normal
+    1000:
+      Goal: Place 1000 chests.
+      Message: You have placed 1000 chests. You need to seek some help.
+      Name: place_1000_chest
+      DisplayName: Horder Addict
+      type: normal
   stone:
     1000:
       Goal: Place 1000 Stones.
@@ -447,17 +459,20 @@ Places:
       Name: place_1000_stone
       DisplayName: Stone Addict
       Type: normal
-  wood:
-    1000:
-      Goal: Place 1000 wood.
-      Message: One thousand placed wood!
-      Name: place_1000_wood
-      DisplayName: Wood God
+    10000:
+      Goal: Place 10000 stones.
+      Message: &6You just placed 10000 stones! &eAmazing!
+  oak_log:
+    100:
+      Goal: Place 1000 oak logs.
+      Message: One hundred placed oak logs!
+      Name: place_1000_oak_log
+      DisplayName: Oak My God!
       Type: normal
       Reward:
         Command:
-          Execute: "say §7ALERT: §4PLAYER§7 has become the §4WOOD GOD§7!"
-          Display: Become the Wood God!
+          Execute: "say §7ALERT: §4PLAYER§7 has become the §4Logged OakAy§7!"
+          Display: &fYou are &6Oak&fay!
   # Item custom display name, for example Mario's head from the Custom Heads plugin.
   §eMario:
     1:
