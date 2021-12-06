@@ -59,3 +59,8 @@ tags:
     description:
       - 'description \nNextRow Description \nThird row desc...'
     permission: 'eternaltags.tag.default'
+  swedecraftfirst:
+    name: 'The first'
+    tag: ' the almighty'
+    description:
+      - '&6The first on the server\nand the owner of it all!'
