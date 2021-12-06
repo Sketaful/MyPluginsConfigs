@@ -42,16 +42,16 @@ payouts:
     max_payout_per_day: 240
     # chance: 10
     permission:
-  2:
-    payout_amount: 5
-    max_payout_per_day: 10000
-    commands:
-      - /tm abc yes
-    commands_if_afk:
-      - /tm abc no
+  #2:
+    #payout_amount: 5
+    #max_payout_per_day: 10000
+    #commands:
+    #  - /tm abc yes
+    #commands_if_afk:
+    #  - /tm abc no
     # chance: 90
     # You can use any permission name you want. e.g. myserver.donor
-    permission: tim.vip
+    #permission: tim.vip
 
 # Translations
 message: "&aYou earned &c%money% &afor 10 minutes online time!"
@@ -79,10 +79,12 @@ enable_atm: true
 # The label that is drawn on the sign upon placement (keep in mind that ATM signs are tracked using this tag, so choose something "unique")
 atm_sign_label: "&cATM"
 atm_worth_gradation:
+  - 1.0
+  - 5.0
   - 10.0
   - 100.0
+  - 500.0
   - 1000.0
-  - 10000.0
 
 # You can seperate the ATM balances for different worlds by group them. Just set group-atms to true and write atm_groups as described below.
 # Note: Existing bank accounts will be removed when enabling this feature. 
