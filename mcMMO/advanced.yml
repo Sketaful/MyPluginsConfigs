@@ -15,7 +15,7 @@
 ###
 # Enables anonymous statistics
 Metrics:
-    bstats: true
+    bstats: false
 Feedback:
     PlayerTips: true
     SkillCommand:
@@ -280,7 +280,7 @@ Skills:
         SuperBreaker:
             AllowTripleDrops: true
         DoubleDrops:
-            SilkTouch: true
+            SilkTouch: false
             # ChanceMax: Maximum chance of receiving double drops when on <MaxBonusLevel> or higher
             # MaxBonusLevel: Level when <ChanceMax> of receiving double drops is reached
             ChanceMax: 100.0
