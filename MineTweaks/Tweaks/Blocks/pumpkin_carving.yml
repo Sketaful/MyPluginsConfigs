@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: true
+enabled: false
 
 # The name of the GUI
 gui-name: "Pumpkin Carving"
