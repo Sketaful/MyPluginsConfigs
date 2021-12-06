@@ -79,7 +79,18 @@ player-list:
   # - 'My third line'
   header:
   - ''
-  - '${shine:[0;2;0][0;25;0][0;25;0][&3;&b]SwedeCraft Server 3.0}'
+  - '%{c:#FECC00}Swede%{c:#006AA7}Craft'
+  - '&7'
+  - '%{c:#006AA7}█████%{c:#FECC00}██%{c:#006AA7}█████████'
+  - '%{c:#006AA7}█████%{c:#FECC00}██%{c:#006AA7}█████████'
+  - '%{c:#006AA7}█████%{c:#FECC00}██%{c:#006AA7}█████████'
+  - '%{c:#006AA7}█████%{c:#FECC00}██%{c:#006AA7}█████████'
+  - '%{c:#FECC00}████████████████'
+  - '%{c:#FECC00}████████████████'
+  - '%{c:#006AA7}█████%{c:#FECC00}██%{c:#006AA7}█████████'
+  - '%{c:#006AA7}█████%{c:#FECC00}██%{c:#006AA7}█████████'
+  - '%{c:#006AA7}█████%{c:#FECC00}██%{c:#006AA7}█████████'
+  - '%{c:#006AA7}█████%{c:#FECC00}██%{c:#006AA7}█████████'
   - ''
 
   # Sets the footer of the player list.
@@ -94,10 +105,10 @@ player-list:
   # - 'My third line'
   footer:
   - ''
-  - '&7World time: &b%{12h-world-time}'
-  - '&7Server time: &b%{server-time}'
+  - '%{c:#006AA7}World time: %{c:#FECC00}%{12h-world-time}'
+  - '%{c:#006AA7}Server time: %{c:#FECC00}%{server-time}'
   - ''
-  - '${right-to-left} &b%{online}&7/&b%{max} &7Online Players ${left-to-right}'
+  - '${right-to-left} %{c:#FECC00}%{online}%{c:#006AA7}/%{c:#FECC00}%{max} %{c:#006AA7}Online Players ${left-to-right}'
 
 ############################################################
 # +------------------------------------------------------+ #

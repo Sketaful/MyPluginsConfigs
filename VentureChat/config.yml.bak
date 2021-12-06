@@ -337,7 +337,7 @@ channels:
     permissions: None
     speak_permissions: None
     channel_prefix: '&f[&2G&f]'
-    format: '{rp_cpmenu} {venturechat_channel_prefix} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+    format: '{rp_cpmenu} {venturechat_channel_prefix} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&f'
   Announcement:
     color: red
     chatcolor: red
