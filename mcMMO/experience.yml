@@ -23,7 +23,7 @@
 #SOLID
 #   The bar is one solid piece
 EarlyGameBoost:
-    Enabled: true
+    Enabled: false
 ExploitFix:
     COTWBreeding: true
     UnsafeEnchantments: false
@@ -157,19 +157,19 @@ Experience_Formula:
 
     # Experience gained will get divided by these values. 1.0 by default, 2.0 means two times less XP gained.
     Modifier:
-        Swords: 1.0
-        Taming: 1.0
-        Acrobatics: 1.0
-        Excavation: 1.0
-        Herbalism: 1.0
-        Unarmed: 1.0
+        Swords: 2.0
+        Taming: 2.0
+        Acrobatics: 3.0
+        Excavation: 2.0
+        Herbalism: 2.0
+        Unarmed: 1.5
         Woodcutting: 1.0
-        Mining: 1.0
-        Archery: 1.0
-        Axes: 1.0
+        Mining: 4.0
+        Archery: 2.0
+        Axes: 2.0
         Repair: 1.0
         Fishing: 1.0
-        Alchemy: 1.0
+        Alchemy: 2.0
 
     # XP earned by players with the permission mcmmo.perks.xp.customboost.<skillname> will get multiplied
     # with 1.25 by default, resulting in a 25% XP boost
@@ -184,7 +184,7 @@ Diminished_Returns:
     ## A value of 1 would mean that a player gets FULL XP, which defeats the purpose of diminished returns, the default value is 0.05 (5% minimum XP)
     ### Set this value to 0 to turn it off
     Guaranteed_Minimum_Percentage: 0.05
-    Enabled: false
+    Enabled: true
 
     # Limit the amount of experience a player can earn:
     # Threshold (amount of experience) per Time_Interval (in minutes)
@@ -241,98 +241,98 @@ Experience_Values:
         Distance_Multiplier: 0.025
     Fishing:
         Cod: 100
-        Salmon: 600
-        Tropical_Fish: 10000
-        Pufferfish: 2400
+        Salmon: 300
+        Tropical_Fish: 1000
+        Pufferfish: 800
         Shake: 50
     Excavation:
         Clay: 40
-        Dirt: 40
-        Rooted_Dirt: 60
-        Coarse_Dirt: 40
-        Podzol: 40
-        Grass_Block: 40
-        Gravel: 40
+        Dirt: 20
+        Rooted_Dirt: 50
+        Coarse_Dirt: 35
+        Podzol: 30
+        Grass_Block: 20
+        Gravel: 30
         Mycelium: 40
-        Sand: 40
-        Red_Sand: 40
-        Snow: 20
-        Snow_Block: 40
-        Soul_Sand: 40
-        Soul_Soil: 40
+        Sand: 20
+        Red_Sand: 30
+        Snow: 10
+        Snow_Block: 20
+        Soul_Sand: 30
+        Soul_Soil: 30
     Woodcutting:
-        Crimson_Hyphae: 50
-        Stripped_Crimson_Hyphae: 50
-        Warped_Hyphae: 50
-        Stripped_Warped_Hyphae: 50
+        Crimson_Hyphae: 30
+        Stripped_Crimson_Hyphae: 30
+        Warped_Hyphae: 30
+        Stripped_Warped_Hyphae: 30
         Nether_Wart_Block: 1
         Warped_Wart_Block: 1
-        Shroomlight: 100
-        Crimson_Stem: 35
-        Warped_Stem: 35
-        Oak_Log: 70
-        Spruce_Log: 80
-        Birch_Log: 90
-        Jungle_Log: 100
-        Acacia_Log: 90
-        Dark_Oak_Log: 90
-        Stripped_Oak_Log: 70
-        Stripped_Spruce_Log: 80
-        Stripped_Birch_Log: 90
-        Stripped_Jungle_Log: 100
-        Stripped_Acacia_Log: 90
-        Stripped_Dark_Oak_Log: 90
-        Stripped_Oak_Wood: 70
-        Stripped_Spruce_Wood: 80
-        Stripped_Birch_Wood: 90
-        Stripped_Jungle_Wood: 100
-        Stripped_Acacia_Wood: 90
-        Stripped_Dark_Oak_Wood: 90
-        Oak_Wood: 70
-        Spruce_Wood: 70
-        Birch_Wood: 70
-        Jungle_Wood: 70
-        Acacia_Wood: 70
-        Dark_Oak_Wood: 70
-        Red_Mushroom_Block: 70
-        Brown_Mushroom_Block: 70
-        Mushroom_Stem: 80
+        Shroomlight: 80
+        Crimson_Stem: 25
+        Warped_Stem: 25
+        Oak_Log: 50
+        Spruce_Log: 50
+        Birch_Log: 50
+        Jungle_Log: 60
+        Acacia_Log: 60
+        Dark_Oak_Log: 50
+        Stripped_Oak_Log: 30
+        Stripped_Spruce_Log: 40
+        Stripped_Birch_Log: 40
+        Stripped_Jungle_Log: 60
+        Stripped_Acacia_Log: 50
+        Stripped_Dark_Oak_Log: 60
+        Stripped_Oak_Wood: 40
+        Stripped_Spruce_Wood: 30
+        Stripped_Birch_Wood: 40
+        Stripped_Jungle_Wood: 60
+        Stripped_Acacia_Wood: 40
+        Stripped_Dark_Oak_Wood: 50
+        Oak_Wood: 30
+        Spruce_Wood: 40
+        Birch_Wood: 50
+        Jungle_Wood: 50
+        Acacia_Wood: 40
+        Dark_Oak_Wood: 40
+        Red_Mushroom_Block: 30
+        Brown_Mushroom_Block: 40
+        Mushroom_Stem: 30
     Herbalism:
-        Small_Dripleaf: 140
-        Big_Dripleaf: 140
-        Cave_Vines: 90
-        Cave_Vines_Plant: 90
-        Glow_Lichen: 200
-        Moss_Block: 150
-        Crimson_Roots: 6
-        Warped_Roots: 6
-        Nether_Wart_Block: 3
-        Warped_Wart_Block: 3
-        Nether_Sprouts: 10
-        Crimson_Fungus: 50
-        Warped_Fungus: 50
-        Shroomlight: 250
-        Bee_Nest: 200
-        Sweet_Berry_Bush: 50
-        Seagrass: 10
-        Tall_Seagrass: 10
-        Kelp: 3
-        Kelp_Plant: 3
-        Tube_Coral: 80
-        Brain_Coral: 90
-        Bubble_Coral: 75
-        Fire_Coral: 120
-        Horn_Coral: 175
-        Tube_Coral_Fan: 80
-        Brain_Coral_Fan: 90
-        Bubble_Coral_Fan: 75
-        Fire_Coral_Fan: 120
-        Horn_Coral_Fan: 175
-        Tube_Coral_Wall_Fan: 80
-        Brain_Coral_Wall_Fan: 90
-        Bubble_Coral_Wall_Fan: 75
-        Fire_Coral_Wall_Fan: 120
-        Horn_Coral_Wall_Fan: 175
+        Small_Dripleaf: 100
+        Big_Dripleaf: 100
+        Cave_Vines: 50
+        Cave_Vines_Plant: 4
+        Glow_Lichen: 100
+        Moss_Block: 80
+        Crimson_Roots: 3
+        Warped_Roots: 2
+        Nether_Wart_Block: 1
+        Warped_Wart_Block: 2
+        Nether_Sprouts: 8
+        Crimson_Fungus: 30
+        Warped_Fungus: 30
+        Shroomlight: 180
+        Bee_Nest: 100
+        Sweet_Berry_Bush: 20
+        Seagrass: 3
+        Tall_Seagrass: 4
+        Kelp: 2
+        Kelp_Plant: 2
+        Tube_Coral: 40
+        Brain_Coral: 50
+        Bubble_Coral: 30
+        Fire_Coral: 70
+        Horn_Coral: 40
+        Tube_Coral_Fan: 30
+        Brain_Coral_Fan: 40
+        Bubble_Coral_Fan: 45
+        Fire_Coral_Fan: 90
+        Horn_Coral_Fan: 95
+        Tube_Coral_Wall_Fan: 50
+        Brain_Coral_Wall_Fan: 60
+        Bubble_Coral_Wall_Fan: 55
+        Fire_Coral_Wall_Fan: 80
+        Horn_Coral_Wall_Fan: 85
         Dead_Tube_Coral: 10
         Dead_Brain_Coral: 10
         Dead_Bubble_Coral: 10
@@ -348,10 +348,10 @@ Experience_Values:
         Dead_Bubble_Coral_Wall_Fan: 10
         Dead_Fire_Coral_Wall_Fan: 10
         Dead_Horn_Coral_Wall_Fan: 10
-        Allium: 300
-        Azure_Bluet: 150
-        Blue_Orchid: 150
-        Brown_Mushroom: 150
+        Allium: 190
+        Azure_Bluet: 90
+        Blue_Orchid: 90
+        Brown_Mushroom: 80
         Cactus: 30
         Chorus_Flower: 25
         Chorus_Plant: 1
@@ -364,124 +364,124 @@ Experience_Values:
         Dead_Bush: 30
         Lilac: 50
         Melon: 20
-        Orange_Tulip: 150
-        Oxeye_Daisy: 150
+        Orange_Tulip: 40
+        Oxeye_Daisy: 40
         Peony: 50
-        Pink_Tulip: 150
-        Poppy: 100
-        Pumpkin: 20
-        Red_Mushroom: 150
-        Red_Tulip: 150
-        Rose_Bush: 50
-        Fern: 10
-        Grass: 10
-        Sugar_Cane: 30
-        Sunflower: 50
-        Tall_Grass: 50
-        Large_Fern: 50
-        Vine: 10
-        Weeping_Vines_Plant: 10
-        Twisting_Vines_Plant: 10
-        Lily_Pad: 100
-        White_Tulip: 150
-        Dandelion: 100
-        Bamboo: 10
-        Cornflower: 150
-        Lily_Of_The_Valley: 150
-        Wither_Rose: 500
+        Pink_Tulip: 40
+        Poppy: 60
+        Pumpkin: 15
+        Red_Mushroom: 100
+        Red_Tulip: 60
+        Rose_Bush: 20
+        Fern: 5
+        Grass: 4
+        Sugar_Cane: 7
+        Sunflower: 30
+        Tall_Grass: 20
+        Large_Fern: 20
+        Vine: 8
+        Weeping_Vines_Plant: 8
+        Twisting_Vines_Plant: 8
+        Lily_Pad: 60
+        White_Tulip: 40
+        Dandelion: 50
+        Bamboo: 3
+        Cornflower: 65
+        Lily_Of_The_Valley: 50
+        Wither_Rose: 300
     Mining:
         Tuff: 10
-        Copper_Ore: 1400
-        Deepslate_Copper_Ore: 1900
+        Copper_Ore: 400
+        Deepslate_Copper_Ore: 900
         Deepslate: 30
         Cobbled_Deepslate: 15
-        Calcite: 400
-        Smooth_Basalt: 300
-        Amethyst_Block: 500
-        Budding_Amethyst: 400
+        Calcite: 200
+        Smooth_Basalt: 150
+        Amethyst_Block: 250
+        Budding_Amethyst: 300
         Small_Amethyst_Bud: 10
         Medium_Amethyst_Bud: 20
         Large_Amethyst_Bud: 30
         Amethyst_Cluster: 60
         Bone_Block: 500
-        Crying_Obsidian: 3000
+        Crying_Obsidian: 1000
         Chain: 100
         Blackstone: 55
         Warped_Nylium: 5
         Crimson_Nylium: 5
-        Ancient_Debris: 7777
-        Magma_Block: 30
-        Basalt: 40
-        Tube_Coral_Block: 75
-        Brain_Coral_Block: 80
-        Bubble_Coral_Block: 70
-        Fire_Coral_Block: 90
-        Horn_Coral_Block: 125
+        Ancient_Debris: 2500
+        Magma_Block: 20
+        Basalt: 10
+        Tube_Coral_Block: 30
+        Brain_Coral_Block: 30
+        Bubble_Coral_Block: 35
+        Fire_Coral_Block: 55
+        Horn_Coral_Block: 80
         Coal_Ore: 400
-        Deepslate_Coal_Ore: 700
-        Diamond_Ore: 2400
-        Deepslate_Diamond_Ore: 3600
-        Emerald_Ore: 1000
-        Deepslate_Emerald_Ore: 1700
-        End_Bricks: 50
-        Chiseled_Nether_Bricks: 50
-        Cracked_Nether_Bricks: 50
-        Nether_Bricks: 50
-        Red_Nether_Bricks: 50
-        End_Stone: 15
-        Glowstone: 15
-        Gold_Ore: 1300
-        Deepslate_Gold_Ore: 1900
-        Nether_Gold_Ore: 1300
-        Gilded_Blackstone: 200
-        Terracotta: 30
-        Iron_Ore: 900
-        Deepslate_Iron_Ore: 1300
-        Lapis_Ore: 800
-        Lapis_Lazuli_Ore: 800
-        Deepslate_Lapis_Ore: 1400
-        Mossy_Cobblestone: 30
-        Netherrack: 15
-        Obsidian: 150
-        Packed_Ice: 15
-        Blue_Ice: 15
-        Nether_Quartz_Ore: 300
-        Redstone_Ore: 600
-        Deepslate_Redstone_Ore: 900
-        Sandstone: 30
-        Black_Terracotta: 50
-        Blue_Terracotta: 50
-        Brown_Terracotta: 50
-        Cyan_Terracotta: 50
-        Gray_Terracotta: 50
-        Green_Terracotta: 50
-        Light_Blue_Terracotta: 50
-        Light_Gray_Terracotta: 50
-        Lime_Terracotta: 50
-        Magenta_Terracotta: 50
-        Orange_Terracotta: 50
-        Pink_Terracotta: 50
-        Purple_Terracotta: 50
-        Red_Terracotta: 50
-        White_Terracotta: 50
-        Yellow_Terracotta: 50
+        Deepslate_Coal_Ore: 300
+        Diamond_Ore: 1500
+        Deepslate_Diamond_Ore: 1500
+        Emerald_Ore: 600
+        Deepslate_Emerald_Ore: 1000
+        End_Bricks: 30
+        Chiseled_Nether_Bricks: 30
+        Cracked_Nether_Bricks: 30
+        Nether_Bricks: 20
+        Red_Nether_Bricks: 24
+        End_Stone: 10
+        Glowstone: 10
+        Gold_Ore: 250
+        Deepslate_Gold_Ore: 300
+        Nether_Gold_Ore: 300
+        Gilded_Blackstone: 90
+        Terracotta: 20
+        Iron_Ore: 150
+        Deepslate_Iron_Ore: 200
+        Lapis_Ore: 200
+        Lapis_Lazuli_Ore: 200
+        Deepslate_Lapis_Ore: 300
+        Mossy_Cobblestone: 20
+        Netherrack: 10
+        Obsidian: 100
+        Packed_Ice: 5
+        Blue_Ice: 8
+        Nether_Quartz_Ore: 150
+        Redstone_Ore: 250
+        Deepslate_Redstone_Ore: 350
+        Sandstone: 10
+        Black_Terracotta: 30
+        Blue_Terracotta: 30
+        Brown_Terracotta: 30
+        Cyan_Terracotta: 30
+        Gray_Terracotta: 30
+        Green_Terracotta: 30
+        Light_Blue_Terracotta: 30
+        Light_Gray_Terracotta: 30
+        Lime_Terracotta: 30
+        Magenta_Terracotta: 30
+        Orange_Terracotta: 30
+        Pink_Terracotta: 30
+        Purple_Terracotta: 30
+        Red_Terracotta: 30
+        White_Terracotta: 30
+        Yellow_Terracotta: 30
         Stone: 15
         Granite: 15
         Andesite: 15
         Diorite: 15
-        Stone_Bricks: 50
-        Cracked_Stone_Bricks: 50
-        Mossy_Stone_Bricks: 50
-        Chiseled_Stone_Bricks: 50
+        Stone_Bricks: 30
+        Cracked_Stone_Bricks: 35
+        Mossy_Stone_Bricks: 40
+        Chiseled_Stone_Bricks: 35
         Red_Sandstone: 100
-        Prismarine: 70
-        Prismarine_Bricks: 70
-        Dark_Prismarine: 70
-        Sea_Lantern: 70
-        Purpur_Block: 200
-        Purpur_Pillar: 250
-        Purpur_Slab: 150
-        Purpur_Stairs: 250
+        Prismarine: 40
+        Prismarine_Bricks: 45
+        Dark_Prismarine: 45
+        Sea_Lantern: 40
+        Purpur_Block: 100
+        Purpur_Pillar: 120
+        Purpur_Slab: 80
+        Purpur_Stairs: 120
     Repair:
         Base: 1000.0
         Wood: 0.6
@@ -521,20 +521,20 @@ Experience_Values:
     Taming:
         Animal_Taming:
             Llama: 1200
-            Wolf: 250
-            Ocelot: 500
-            Horse: 1000
+            Wolf: 150
+            Ocelot: 400
+            Horse: 800
             Donkey: 1000
             Mule: 1000
             Skeleton_Horse: 1000
             Zombie_Horse: 1000
-            Parrot: 1100
+            Parrot: 800
             Cat: 500
             Fox: 1000
-            Panda: 1000
-            Bee: 100
-            Goat: 250
-            Axolotl: 600
+            Panda: 1500
+            Bee: 80
+            Goat: 200
+            Axolotl: 400
     Combat:
         Multiplier:
             Animals: 1.0
