@@ -1,0 +1,5 @@
+placeholder: "test" # The placeholder will be %rp_test% ( PlaceholderAPI ) or {rp_test} ( MVdWPlaceholderAPI )
+text: "This is an example"
+
+placeholder: "cpmenu"
+text: "&e■"
