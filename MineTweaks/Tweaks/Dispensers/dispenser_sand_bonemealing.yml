@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: true
+enabled: false
 
 # Whether to allow this feature to work on normal sand.
 allow-normal-sand: true

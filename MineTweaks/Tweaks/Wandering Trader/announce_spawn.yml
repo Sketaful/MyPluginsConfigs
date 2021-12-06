@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: true
+enabled: false
 
 # The message to send, %location% and %world% will be replaced with the traders location.
 announce-message: '&6A wandering trader has spawned at &3%location%&6 in &3%world%&6!'

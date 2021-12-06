@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: true
+enabled: false
 
 # The maximum height of sugar cane when bonemealed.
 cactus-bonemeal-height: 3

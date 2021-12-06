@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: true
+enabled: false
 
 # Trowel display name.
 trowel-name: 'Trowel'

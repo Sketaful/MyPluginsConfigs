@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: true
+enabled: false
 
 # A map of blocks to seeds for right click harvesting
 harvest-seed-mappings:

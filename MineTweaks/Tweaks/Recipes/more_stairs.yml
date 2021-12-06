@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: true
+enabled: false
 
 # How many stairs will be crafted at once.
 more-stairs-amount: 8

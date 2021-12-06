@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: false
+enabled: true
 
 # Display name, seen in-game
 display-name: "Bedrock Wither Health"

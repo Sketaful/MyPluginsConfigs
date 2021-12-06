@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: true
+enabled: false
 
 # Require air in the target position for a dispenser to place a block.
 placement-requires-air: true

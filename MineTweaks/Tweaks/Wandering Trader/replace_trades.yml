@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: true
+enabled: false
 
 # The minimum number of trades a trader will try to generate. (Note: The actual number of offers may be lower than this if duplicates are randomly chosen.)
 min-trades: 5

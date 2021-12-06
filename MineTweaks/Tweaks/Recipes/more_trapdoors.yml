@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: true
+enabled: false
 
 # How many trapdoors will be crafted at once.
 more-trapdoors-amount: 12
