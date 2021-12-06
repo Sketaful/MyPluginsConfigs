@@ -11,7 +11,7 @@
 # Included languages by default:
 #   English, Dutch, German, French, Spanish, Swedish, Italian, Chinese, Hungarian
 language: 'English'
-currencySymbol: '€'
+currencySymbol: 'â‚¬'
 
 # See a list of all color codes here: http://minecraft.gamepedia.com/Formatting_codes
 # multiSuffix' value will be added behind 'nameOfCoin' in case it's more than one coin.
@@ -169,7 +169,7 @@ loseOnDeath: true
 # If so, how much will be taken? A random amount between 10 and 30 by default.
 moneyTaken:
   from: 1.00
-  to: 3.00
+  to: 2.00
 
 # Should we take the *amount* of money from them, or the *percentage* of their money?
 # Amount of 10 to 30 would be $10 to $30. Percentage of 10 to 30 would be 10% to 30%.
