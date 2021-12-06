@@ -1,5 +1,5 @@
 # Enable or disable this tweak.
-enabled: true
+enabled: false
 
 # Display name, seen in-game
 display-name: "Anvil Cobblestone Compressing"
