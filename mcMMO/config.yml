@@ -47,9 +47,9 @@ General:
         # Everything in your config related to skill level requirements, skill level bonuses, etc will be multiplied by 10 when this mode is on
         # This change is purely cosmetic, it retains the old feel of mcMMO where you could level up thousands of times
     RetroMode:
-        Enabled: true
+        Enabled: false
     Locale: en_US
-    MOTD_Enabled: true
+    MOTD_Enabled: false
     EventBroadcasts: true
     EventInfoOnPlayerJoin: true
     AdminNotifications: true
@@ -58,9 +58,9 @@ General:
     # Amount of time (in minutes) to wait between saves of player information
     Save_Interval: 10
     # Allow mcMMO to report on basic anonymous usage
-    Stats_Tracking: true
+    Stats_Tracking: false
     # Allow mcMMO to check if a new version is available
-    Update_Check: true
+    Update_Check: false
     Prefer_Beta: false
     Power_Level_Cap: 0
     # Should mcMMO truncate levels if you lower your max level cap for a skillname
@@ -70,7 +70,7 @@ General:
     # Should mcMMO over-write configs to update, or make new ones ending in .new?
     Config_Update_Overwrite: true
     # Play level-up sounds
-    LevelUp_Sounds: true
+    LevelUp_Sounds: false
 
     # This should fix blocks being broken client side, but not server-side.
     # Enable to refresh the chunks around a player at the end of Super Breaker,
@@ -84,7 +84,7 @@ Scoreboard:
     # Set this to true to enable scoreboards
     UseScoreboards: false
     # Display player's power levels below their names?
-    Power_Level_Tags: false
+    Power_Level_Tags: true
 
     # Allow players to use "/mcscoreboard keep" to keep the scoreboard up
     Allow_Keep: true
@@ -97,7 +97,7 @@ Scoreboard:
     Tips_Amount: 5
 
     # Add some more color on the board :-)
-    Rainbows: false
+    Rainbows: true
 
     # Display ability names?
     Ability_Names: true
@@ -151,14 +151,14 @@ Mob_Healthbar:
     # Display_Type: Per player Default display for mob health bars - HEARTS, BAR, or DISABLED
     # Display_Time: Amount of time (in seconds) to display. To display permanently, set to -1
     Enabled: true
-    Display_Type: HEARTS
+    Display_Type: BAR
     Display_Time: 3
 
 Database_Purging:
     # Amount of time (in hours) to wait between database purging
     # To only run at server start, set to 0
     # To never run, set to -1
-    Purge_Interval: -1
+    Purge_Interval: 0
     # Any user who hasn't connected in this many months will be purged from the database
     # To never purge old users, set to -1
     Old_User_Cutoff: 6
@@ -270,7 +270,7 @@ Items:
         Item_Name: FEATHER
         Sound_Enabled: true
     Flux_Pickaxe:
-        Sound_Enabled: true
+        Sound_Enabled: false
 
 #
 #  Settings for Parties
@@ -279,26 +279,26 @@ Party:
     # Enable Hurting other players in the same party
     FriendlyFire: false
     # Maximum size for a party, -1 for infinite
-    MaxSize: -1
+    MaxSize: 5
     # Amount of time (in hours) to wait between automatically kicking old party members
     # To only run at server start, set to 0
     # To never kick old users, set to -1
-    AutoKick_Interval: 12
+    AutoKick_Interval: 24
     # Any user who hasn't connected in this many days will get kicked from their party
     Old_Party_Member_Cutoff: 7
 
     # Settings for party share modes
     Sharing:
-        ExpShare_bonus_base: 1.1
-        ExpShare_bonus_increase: 1.05
-        ExpShare_bonus_cap: 1.5
+        ExpShare_bonus_base: 1
+        ExpShare_bonus_increase: 1
+        ExpShare_bonus_cap: 1
         Range: 75.0
 
     # Party members level up their party by earning individual experience
     # Newly created parties will not immediately have access to all the party features
     # and have to level up the party a bit before they can use them.
     Leveling:
-        Level_Cap: 10
+        Level_Cap: 50
 
         # Uses the regular XP formula but is multiplied by <amount of party members> + <Xp_Curve_Modifier>
         Xp_Curve_Modifier: 3
@@ -306,10 +306,10 @@ Party:
         Inform_All_Party_Members_On_LevelUp: false
 
         Chat_UnlockLevel: 1
-        Teleport_UnlockLevel: 2
-        Alliance_UnlockLevel: 5
-        ItemShare_UnlockLevel: 8
-        XpShare_UnlockLevel: 10
+        Teleport_UnlockLevel: 5
+        Alliance_UnlockLevel: 10
+        ItemShare_UnlockLevel: 15
+        XpShare_UnlockLevel: 30
 
 #
 #  Settings for Abilities
@@ -318,7 +318,7 @@ Abilities:
     Enabled: true
     Messages: true
     Activation:
-        Only_Activate_When_Sneaking: false
+        Only_Activate_When_Sneaking: true
     Cooldowns:
         Berserk: 240
         Blast_Mining: 60
@@ -444,7 +444,7 @@ Skills:
             SmoothBrick_To_CrackedBrick: true
         # When using Unarmed, picked up items will automatically get moved to a free slot instead of going in the slot
         # of your hand. Should item pickup be disabled when your entire inventory - except for your hand - is full?
-        Item_Pickup_Disabled_Full_Inventory: true
+        Item_Pickup_Disabled_Full_Inventory: false
         # Any attacks made without a tool, i.e. with one's open hand, a block, etc., will count as unarmed. 
         Items_As_Unarmed: false
     Woodcutting:
@@ -628,7 +628,7 @@ Bonus_Drops:
 Commands:
     Skills:
         # Turn this off to prevent mcMMO URL links from being sent
-        URL_Links: true
+        URL_Links: false
     Generic:
         # If true, when using partial names in commands mcMMO will try to look for a match from
         # the offline players. Enabling this might slow the server down if there are a lot of offline players.
@@ -638,18 +638,18 @@ Commands:
         # Prevents players from spamming /mctop or /mcrank
         Player_Cooldown: 1750
     mcmmo:
-        Donate_Message: true
+        Donate_Message: false
     inspect:
         Max_Distance: 30.0
     ptp:
-        Cooldown: 120
+        Cooldown: 300
         Warmup: 5
         RecentlyHurt_Cooldown: 60
         Accept_Required: true
         Request_Timeout: 300
         # If true, require players to have a mcmmo.commands.ptp.world.[WorldName] permission
         # to teleport to, from, or within any given world.
-        World_Based_Permissions: false
+        World_Based_Permissions: true
 
 #
 #  Settings for particles
