@@ -38,7 +38,7 @@ merge-payouts: false
 # and "chance", not both.
 payouts:
   1:
-    payout_amount: 5
+    payout_amount: 1
     max_payout_per_day: 240
     # chance: 10
     permission:
