@@ -53,7 +53,7 @@ commandspy:
   worldeditcommands: true
   
 antispam:
-  enabled: true
+  enabled: false
   
   # Number of messages to be spam
   spamnumber: 5
@@ -167,38 +167,6 @@ jsonformatting:
         hover_text:
         - '&6{eternaltags_tag_description}'
         - '&7({eternaltags_unlocked}/{eternaltags_total} unlocked)'
-        click_action: 'run_command'
-        click_text: '/cp main_menu'
-  Owner:
-    priority: 1
-    json_attributes:
-      player_displayname:
-        hover_text:
-        - '&cOwner of the server!'
-        - '&bMessage me for help!'
-        click_action: 'suggest_command'
-        click_text: '/msg {player_name}'
-      vault_prefix:
-        hover_text:
-        - '&dServer Owner'
-        click_action: 'run_command'
-        click_text: '/help'
-      venturechat_channel_prefix:
-        hover_text:
-        - '&fChannel: {venturechat_channel_color}{venturechat_channel_name}'
-        - '&7Left-Click to change channel.'
-        click_action: 'run_command'
-        click_text: '/cp misc-sub-chat'
-      eternaltags_tag:
-        hover_text:
-        - '&6{eternaltags_tag_description}'
-        - '&7({eternaltags_unlocked}/{eternaltags_total} unlocked)'
-        click_action: 'run_command'
-        click_text: '/tags'
-      rp_cpmenu:
-        hover_text:
-        - '&6Left-Click &fto open'
-        - '&fthe &lmain servermenu!'
         click_action: 'run_command'
         click_text: '/cp main_menu'
     
@@ -334,6 +302,201 @@ channels:
     cooldown: 0
     bungeecord: false
     alias: g
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Dark_Red:
+    color: dark_red
+    chatcolor: dark_red
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: dred
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Red:
+    color: red
+    chatcolor: red
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: red
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Gold:
+    color: gold
+    chatcolor: gold
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: gold
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Yellow:
+    color: yellow
+    chatcolor: yellow
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: yellow
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Dark_Green:
+    color: dark_green
+    chatcolor: dark_green
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: dgreen
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Green:
+    color: green
+    chatcolor: green
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: green
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Aqua:
+    color: aqua
+    chatcolor: aqua
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: aqua
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Dark_Aqua:
+    color: dark_aqua
+    chatcolor: dark_aqua
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: daqua
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Dark_Blue:
+    color: dark_blue
+    chatcolor: dark_blue
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: dblue
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Blue:
+    color: blue
+    chatcolor: blue
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: blue
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Light_Purple:
+    color: light_purple
+    chatcolor: light_purple
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: lpurple
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  Dark_Purple:
+    color: dark_purple
+    chatcolor: dark_purple
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: dpurple
+    permissions: None
+    speak_permissions: None
+    channel_prefix: '&f[&2G&f]'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+  White:
+    color: white
+    chatcolor: white
+    mutable: true
+    filter: true
+    autojoin: true
+    default: true
+    distance: 0
+    cooldown: 0
+    bungeecord: false
+    alias: white
     permissions: None
     speak_permissions: None
     channel_prefix: '&f[&2G&f]'
