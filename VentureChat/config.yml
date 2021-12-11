@@ -337,79 +337,79 @@ channels:
     permissions: None
     speak_permissions: None
     channel_prefix: '&f[&2G&f]'
-    format: '{rp_cpmenu} {venturechat_channel_prefix} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
-  Announcement:
-    color: red
-    chatcolor: red
-    mutable: false
-    filter: false
-    autojoin: true
-    default: false
-    distance: 0
-    cooldown: 0
-    bungeecord: true
-    alias: announce
-    permissions: None
-    speak_permissions: announcement
-    channel_prefix: '&f[&aServer Announcement&f]'
-    format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&c:'
-  Staff:
-    color: green
-    chatcolor: green
-    mutable: false
-    filter: false
-    autojoin: true
-    default: false
-    distance: 0
-    cooldown: 0
-    bungeecord: false
-    alias: st
-    permissions: staffchannel
-    speak_permissions: None
-    channel_prefix: '&f[&aStaff&f]'
-    format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&a:'
-  Donator:
-    color: light_purple
-    chatcolor: light_purple
-    mutable: true
-    filter: true
-    autojoin: true
-    default: false
-    distance: 0
-    cooldown: 0
-    bungeecord: false
-    alias: d
-    permissions: donatorchannel
-    speak_permissions: None
-    channel_prefix: '&f[&dD&f]'
-    format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&d:'
-  Help:
-    color: aqua
-    chatcolor: aqua
-    mutable: true
-    filter: true
-    autojoin: true
-    default: false
-    distance: 0
-    cooldown: 0
-    bungeecord: false
-    alias: h
-    permissions: None
-    speak_permissions: None
-    channel_prefix: '&f[&bH&f]'
-    format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&b:'
-  Trade:
-    color: dark_aqua
-    chatcolor: dark_aqua
-    mutable: true
-    filter: true
-    autojoin: true
-    default: false
-    distance: 0
-    cooldown: 0
-    bungeecord: false
-    alias: t
-    permissions: None
-    speak_permissions: None
-    channel_prefix: '&f[&3T&f]'
-    format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&3:'
+    format: '{rp_cpmenu} {vault_prefix} {player_displayname}{eternaltags_tag}&2 ►&7'
+#  Announcement:
+#    color: red
+#    chatcolor: red
+#    mutable: false
+#    filter: false
+#    autojoin: true
+#    default: false
+#    distance: 0
+#    cooldown: 0
+#    bungeecord: true
+#    alias: announce
+#    permissions: None
+#    speak_permissions: announcement
+#    channel_prefix: '&f[&aServer Announcement&f]'
+#    format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&c:'
+#  Staff:
+#    color: green
+#    chatcolor: green
+#    mutable: false
+#    filter: false
+#    autojoin: true
+#    default: false
+#    distance: 0
+#    cooldown: 0
+#    bungeecord: false
+#    alias: st
+#    permissions: staffchannel
+#    speak_permissions: None
+#    channel_prefix: '&f[&aStaff&f]'
+#    format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&a:'
+#  Donator:
+#    color: light_purple
+#    chatcolor: light_purple
+#    mutable: true
+#    filter: true
+#    autojoin: true
+#    default: false
+#    distance: 0
+#    cooldown: 0
+#    bungeecord: false
+#    alias: d
+#    permissions: donatorchannel
+#    speak_permissions: None
+#    channel_prefix: '&f[&dD&f]'
+#    format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&d:'
+#  Help:
+#    color: aqua
+#    chatcolor: aqua
+#    mutable: true
+#    filter: true
+#    autojoin: true
+#    default: false
+#    distance: 0
+#    cooldown: 0
+#    bungeecord: false
+#    alias: h
+#    permissions: None
+#    speak_permissions: None
+#    channel_prefix: '&f[&bH&f]'
+#    format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&b:'
+#  Trade:
+#    color: dark_aqua
+#    chatcolor: dark_aqua
+#    mutable: true
+#    filter: true
+#    autojoin: true
+#    default: false
+#    distance: 0
+#    cooldown: 0
+#    bungeecord: false
+#    alias: t
+#    permissions: None
+#    speak_permissions: None
+#    channel_prefix: '&f[&3T&f]'
+#    format: '{venturechat_channel_prefix} {vault_prefix}{player_displayname}&3:'
